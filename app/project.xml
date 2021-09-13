@@ -1,0 +1,35 @@
+<library>
+  <repositories>
+    <repository>
+      <path>../libs/modm/repo.lb</path>
+    </repository>
+    <repository>
+      <path>../libs/lely_modm/repo.lb</path>
+    </repository>
+    <repository>
+      <path>../libs/etl_modm/repo.lb</path>
+    </repository>
+  </repositories>
+  <outpath>build</outpath>
+  <extends>modm:nucleo-f439zi</extends>
+  <options>
+    <!-- enable rtti because lely reasons -->
+    <option name="modm:stdc++:rtti">True</option>
+    <!-- enable exceptions because lely reasons -->
+    <option name="modm:stdc++:exceptions">True</option>
+
+    <!-- <option name="modm:platform:cortex-m:main_stack_size "> 4000 </option> -->
+  </options>
+  <modules>
+    <module>modm:build:scons</module>
+    <module>modm:platform:can:1</module>
+    <module>modm:platform:can:2</module>
+    <module>modm:architecture:memory</module>
+
+    <!-- <module>erpc_modm:erpc</module> -->
+    <module>lely_modm:lely-core</module>
+    <module>etl_modm:etl</module>
+  </modules>
+</library>
+
+      

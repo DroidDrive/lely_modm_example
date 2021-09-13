@@ -1,0 +1,11 @@
+modm/
+build/
+SConstruct
+
+app/build/
+app/*modm*/
+
+*.gdb
+*.log
+*.dblite
+*.vscode
