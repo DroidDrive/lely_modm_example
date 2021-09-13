@@ -1,6 +1,11 @@
 # lely_modm_example
 This example shows the use of the lely-core stack with modm on two stm32f439zi nucleo boards. We have used two nucleo boards connected via two can transeivers [MIKROE-4107](https://eu.mouser.com/ProductDetail/Mikroe/MIKROE-4107?qs=%2Fha2pyFaduiZroYiT5BLElmT4dekK9lYJj%2Flu22Q8nxQqCQ%252Bc6jHiQ%3D%3D)
 
+![131042549-1348c1a7-1c86-4d14-a0bb-347317bd669f](https://user-images.githubusercontent.com/6985609/133076375-705a2ee6-3b6d-411f-b0fa-c9ab77ff8996.jpeg)
+
+![131042249-5d68439d-05cb-44b3-9502-657f8e983fc5](https://user-images.githubusercontent.com/6985609/133076409-aac5feb3-2af3-4d74-b3d7-39adf907acc8.gif)
+
+
 ### How to use it
 
 * git submodule update --init --recursive
