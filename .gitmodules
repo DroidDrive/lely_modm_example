@@ -1,0 +1,11 @@
+[submodule "libs/etl_modm"]
+	path = libs/etl_modm
+	url = git@github.com:DroidDrive/etl_modm
+	branch = master
+[submodule "libs/lely_modm"]
+	path = libs/lely_modm
+	url = https://github.com/DroidDrive/lely_modm
+	branch = master
+[submodule "libs/modm"]
+	path = libs/modm
+	url = https://github.com/modm-io/modm

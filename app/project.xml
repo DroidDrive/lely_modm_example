@@ -10,7 +10,6 @@
       <path>../libs/etl_modm/repo.lb</path>
     </repository>
   </repositories>
-  <outpath>build</outpath>
   <extends>modm:nucleo-f439zi</extends>
   <options>
     <!-- enable rtti because lely reasons -->

@@ -71,7 +71,7 @@ int on_write(const can_msg* msg, int timeout, void* arg) {
     // The user-defined argument is a pointer to a pointer to the other channel.
     auto* con = static_cast<CanDriver*>(arg);
 
-    candump(*msg, con->getId());
+    con->candump(modmMsg);
     // Post a task to process the CAN frame. This prevents nesting in the CAN
     // frame handlers. And since we're postponing the handling of the frame, we
     // need to create a copy.
