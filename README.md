@@ -1,6 +1,6 @@
 # lely_modm_example
 
-![image](https://user-images.githubusercontent.com/6985609/133220871-b83f21aa-8871-44ed-a615-c897ecef0851.png)
+<img src="https://user-images.githubusercontent.com/6985609/133220871-b83f21aa-8871-44ed-a615-c897ecef0851.png" alt="Ducktrain Logo" width="30%" >
 
 This example shows the use of the lely-core stack with modm on two stm32f439zi nucleo boards. We have used two nucleo boards connected via two can transeivers [MIKROE-4107](https://eu.mouser.com/ProductDetail/Mikroe/MIKROE-4107?qs=%2Fha2pyFaduiZroYiT5BLElmT4dekK9lYJj%2Flu22Q8nxQqCQ%252Bc6jHiQ%3D%3D)
 
