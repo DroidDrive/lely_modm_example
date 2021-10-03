@@ -6,7 +6,7 @@ using namespace std::chrono_literals;
 
 #include <lely/coapp/slave.hpp>
 
-#include <include/canopen/cia402/CiA402Driver.hpp>
+#include <include/canopen/cia402/CiA402Profile.hpp>
 
 class MySlave : public lely::canopen::BasicSlave {
 public:
