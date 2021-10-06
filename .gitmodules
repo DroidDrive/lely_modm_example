@@ -9,3 +9,4 @@
 [submodule "libs/modm"]
 	path = libs/modm
 	url = https://github.com/modm-io/modm
+	shallow = true
